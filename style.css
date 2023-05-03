@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+* { box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ECF2F8;
+    font-family: "Manrope", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 16rem;
+    width: 730px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+
+
+
+ img {
+    height: 100%;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;   
+}
+
+.container h2 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 350px;
+    color: rgb(90, 90, 90);
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+    font-weight: 700;
+}
+
+.container p {
+    margin-left: 2rem;
+    line-height: 1.3rem;
+    font-size: 13px;
+    margin-top: 1rem;
+    width: 350px;
+    color: rgb(107, 107, 107);
+}
+
+.michelle {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+h4 {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    margin-left: 5.5rem;
+    margin-top: -2.6rem;
+}
+
+h3 {
+    margin-left: 2rem;
+    color: rgb(172, 172, 172);
+    font-size: 14px;
+    margin-left: 5.5rem;
+    font-weight: normal;
+}
+
+.share {
+    background-color:#e9f3fc;
+    border-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    margin-left: 22rem;
+    margin-top: -2rem;
+}
+
+
+
+.share:hover {
+    cursor: pointer;
+}
+    
+   
